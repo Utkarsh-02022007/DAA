@@ -1,0 +1,31 @@
+Saved benchmark results to /mnt/data/mini_courier_planner/outputs/runtime_results.csv
+[50, 'Merge sort', 0.0837]
+[50, 'Insertion sort', 0.0938]
+[50, 'Python Timsort', 0.0163]
+[50, '0/1 Knapsack', 0.4516]
+[50, 'Dijkstra', 0.0135]
+[100, 'Merge sort', 0.1506]
+[100, 'Insertion sort', 0.5675]
+[100, 'Python Timsort', 0.0334]
+[100, '0/1 Knapsack', 0.6836]
+[100, 'Dijkstra', 0.0282]
+[200, 'Merge sort', 0.3918]
+[200, 'Insertion sort', 1.6366]
+[200, 'Python Timsort', 0.0627]
+[200, '0/1 Knapsack', 1.4689]
+[200, 'Dijkstra', 0.0735]
+[400, 'Merge sort', 0.9494]
+[400, 'Insertion sort', 6.917]
+[400, 'Python Timsort', 0.1319]
+[400, '0/1 Knapsack', 3.0131]
+[400, 'Dijkstra', 0.2176]
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.

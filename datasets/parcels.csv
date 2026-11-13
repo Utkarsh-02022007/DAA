@@ -1,0 +1,9 @@
+parcel_id,customer,location,deadline,priority,weight,value
+P101,Aarav,C1,2,5,8,20
+P102,Diya,C2,1,4,4,25
+P103,Kabir,C3,3,7,7,30
+P104,Meera,C4,2,6,6,22
+P105,Ishaan,C5,4,3,3,15
+P106,Anaya,C6,1,8,5,35
+P107,Vivaan,C7,5,9,9,40
+P108,Sara,C8,3,5,5,24

@@ -1,0 +1,21 @@
+input_size,algorithm,runtime_ms
+50,Merge sort,0.0837
+50,Insertion sort,0.0938
+50,Python Timsort,0.0163
+50,0/1 Knapsack,0.4516
+50,Dijkstra,0.0135
+100,Merge sort,0.1506
+100,Insertion sort,0.5675
+100,Python Timsort,0.0334
+100,0/1 Knapsack,0.6836
+100,Dijkstra,0.0282
+200,Merge sort,0.3918
+200,Insertion sort,1.6366
+200,Python Timsort,0.0627
+200,0/1 Knapsack,1.4689
+200,Dijkstra,0.0735
+400,Merge sort,0.9494
+400,Insertion sort,6.917
+400,Python Timsort,0.1319
+400,0/1 Knapsack,3.0131
+400,Dijkstra,0.2176
