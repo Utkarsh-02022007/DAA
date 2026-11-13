@@ -70,11 +70,3 @@ Let V be graph vertices, E edges, n parcels, and W vehicle capacity.
 - Dijkstra with a binary heap: O((V+E) log V) time.
 - Nearest-Neighbour tour: O(k) Dijkstra runs over the graph for k delivery locations; approximately O(k(V+E) log V), plus selection overhead.
 
-## Submission
-Commit the project and tag the final commit:
-```bash
-git add .
-git commit -m "Complete Mini-Courier Planner capstone"
-git tag v1.0-final-submission
-```
-Push the repository to a private GitHub repository and submit its URL through LMS/Zosima.\n
